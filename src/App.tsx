@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import MyDropdown from './components/MyDropdown'
 import Example from './components/Example'
+import Accordion from './components/Accordion'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +33,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Example />
+      <Accordion />
     </main>
 
   )
