@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import MyDropdown from './components/MyDropdown'
 import Example from './components/Example'
 import Accordion from './components/Accordion'
-
+import MyDialog from './components/MyDialog'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,12 +29,13 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
+      <p className="read-the-docs mb-10">
         Click on the Vite and React logos to learn more
       </p>
       <Example />
       <Accordion title="hello world" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." />
       <Accordion title="hello world" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." />
+      <MyDialog />
     </main>
 
   )
