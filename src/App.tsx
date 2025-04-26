@@ -33,7 +33,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Example />
-      <Accordion />
+      <Accordion title="hello world" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." />
+      <Accordion title="hello world" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." />
     </main>
 
   )
